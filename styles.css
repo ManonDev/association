@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #F7F9F9;
+}
+
+#picture-main {
+    background-image: url("src/picture.main.jpg");
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+
+/* MEDIA */
+
+@media all and(max-width){
+    .bg-image #picture-main{  width : 100%; min-width: auto; height: auto; }
+}
