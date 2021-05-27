@@ -25,6 +25,11 @@ body {
 
 /* MEDIA */
 
+@media all and (max-width: 768px) {
+    .nav-item { font-size: 1rem }
+    #picture-main { height: 40vh; }
+}
+
 @media all and (max-width: 992px) {
-    #picture-main { background-size: contain; background-repeat: no-repeat; }
+    #picture-main { height: 50vh }
 }
