@@ -20,7 +20,13 @@ body {
     background-size: cover;   
 }
 
+/* THEME BOOTSTRAP */
 
+.theme1 {
+    background-color: rgba(178, 186, 187,0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;  
+}
 
 
 /* MEDIA */
@@ -28,12 +34,13 @@ body {
 @media all and (max-width: 768px) {
     .nav-item { font-size: 1rem }
     #picture-main { height: 40vh; }
+    .carousel-caption > h3 { font-size: 0.8rem;}
+    .carousel-caption > button { font-size: 0.8rem;} 
 }
 
 @media all and (max-width: 992px) {
     #picture-main { height: 50vh }
 }
-
 
 
 
