@@ -1,0 +1,40 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F9F9;
+}
+
+/* NAV */
+.nav-item {
+    font-size: 1.3rem;
+}
+
+/* PICTURE */
+#picture-main {
+    background-image: url("src/picture-main.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;   
+}
+
+
+
+
+/* MEDIA */
+
+@media all and (max-width: 768px) {
+    .nav-item { font-size: 1rem }
+    #picture-main { height: 40vh; }
+}
+
+@media all and (max-width: 992px) {
+    #picture-main { height: 50vh }
+}
+
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
