@@ -1,27 +1,9 @@
-/* GENERAL */
-* {
-    box-sizing: border-box;
-}
 
-body {
-    background-color: #F7F9F9;
-}
+// VARIABLES
+$box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+$color1 :#F7F9F9;
 
-/* NAV */
-.nav-item {
-    font-size: 1.3rem;
-}
-
-/* PICTURE */
-#picture-main {
-    background-image: url("src/picture-main.jpg");
-    width: 100%;
-    height: 100vh;
-    background-size: cover;   
-}
-
-/* THEME BOOTSTRAP */
-
+// THEME BOOTSTRAP
 .theme1 {
     background-color: rgba(178, 186, 187,0.8);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -29,8 +11,30 @@ body {
 }
 
 
-/* MEDIA */
+// GENERAL
+* {
+    box-sizing: border-box;
+}
 
+body {
+    background-color: $color1;
+}
+
+// NAV
+.nav-item {
+    font-size: 1.3rem;
+}
+
+// PICTURE
+#picture-main {
+    background-image: url("src/picture-main.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;   
+}
+
+
+// MEDIA QUERIES
 @media all and (max-width: 768px) {
     .nav-item { font-size: 1rem }
     #picture-main { height: 40vh; }
@@ -43,5 +47,5 @@ body {
 }
 
 
-
+// IMPORT FILES BOOTSTRAP
 @import "node_modules/bootstrap/scss/bootstrap";
