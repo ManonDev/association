@@ -65,42 +65,45 @@
     <section id="form" class="my-3">
         <div class="container">
             <h1 class="text-center">Contactez-nous :</h1>
-            <div class="mx-auto bg-light text-warning w-50 p-3 mt-3 rounded-2 shadow border border-3 border-warning">
-                <form>
-                    <div class="form-group">
-                        <div class="row mb-3">
-                            <div class="col-md">
-                                <label for="name" class="form-label">Nom :</label>
-                                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom">
+            <div class="row justify-content-center">
+                <div class="col-md-8 bg-light text-warning p-3 mt-3 rounded-2 shadow border border-3 border-warning">
+                    <form>
+                        <div class="form-group">
+                            <div class="row mb-3">
+                                <div class="col-md">
+                                    <label for="name" class="form-label">Nom :</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Entrez votre Nom" required>
+                                </div>
+                                <div class="col-md">
+                                    <label for="first-name" class="form-label">Prénom :</label>
+                                    <input type="text" class="form-control" id="first-name" placeholder="Entrez votre prénom" required>
+                                </div>
                             </div>
-                            <div class="col-md">
-                                <label for="first-name" class="form-label">Prénom :</label>
-                                <input type="text" class="form-control" id="first-name" placeholder="Entrez votre prénom">
+                            <div class="mb-3">
+                                <label for="email">Indiquez votre adresse Email :</label>
+                                <input type="text" class="form-control w-75" placeholder="exemple@email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label>Sélectionnez un sujet :</label>
+                                <select class="form-select w-75">
+                                    <option selected>Adopter</option>
+                                    <option value="1">Signaler un abandon</option>
+                                    <option value="2">Animal perdu</option>
+                                    <option value="3">Bénévolat</option>
+                                    <option value="4">Informations sur l'association</option>
+                                    <option value="5">Autre</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="commentaire" class="form-label">Votre commentaire :</label>
+                                <textarea class="form-control" id="commentaire" rows="6" placeholder="Votre commentaire ici"required></textarea>
+                            </div>
+                            <div class="text-end">
+                            <button class="btn btn-outline-warning" type="submit">Envoyer</button>
                             </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="email">Indiquez votre adresse Email :</label>
-                            <input type="text" class="form-control" placeholder="exemple@email">
-                        </div>
-                        <div class="mb-3">
-                            <label>Sélectionnez un sujet :</label>
-                            <select class="form-select">
-                                <option selected>Adopter</option>
-                                <option value="1">Signaler un abandon</option>
-                                <option value="2">Animal perdu</option>
-                                <option value="4">Bénévolat</option>
-                                <option value="3">Autre</option>
-                              </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="commentaire" class="form-label">Votre commentaire :</label>
-                            <textarea class="form-control" id="commentaire" rows="6"></textarea>
-                        </div>
-                        <div class="text-end">
-                          <button class="btn btn-outline-warning" type="submit">Envoyer</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
