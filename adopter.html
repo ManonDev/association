@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <title>Agir pour eux | Association protection animale</title>
+    </head>
+    <body>
+
+    <!--HEADER-->
+        <header class="text-center p-4">
+            <a href="index.html">
+                <img src="src/logo.png" alt="logo du site" class="img-fluid">
+            </a>   
+        </header>
+
+    <!--NAV-->
+        <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-md border border-secondary">
+            <div class="container">
+                <!--ICON-->
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <img src="src/dog-paws.png" alt="Icon Menu">
+                    </a>
+                </div>
+                <!--BUTTON-->
+                <button type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation">   
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--ITEMS-->
+                <div id="navbarText" class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-auto p-2">
+                            <a class="nav-link" href="discovery.html">Découvrir</a>
+                        </li>
+                        <li class="nav-item mx-auto p-2">
+                            <a class="nav-link" href="#"
+                            data-bs-toggle="popover"
+                            data-bs-placement="bottom"
+                            data-bs-trigger="hover focus"
+                            data-bs-content="Bientôt disponible"
+                            >Refuges</a>
+                        </li>
+                        <li class="nav-item mx-auto p-2 dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                                href="#" 
+                                id="navbarDropdownAccueillir" 
+                                role="button" 
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false">
+                                Accueillir
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownAccueillir">
+                                    <li><a class="dropdown-item" href="#">Adopter un animal</a></li>
+                                    <li><a class="dropdown-item" href="#">Famille d'accueil</a></li>
+                                </ul>
+                        </li >
+                        <li class="nav-item mx-auto p-2 dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                                href="#" 
+                                id="navbarDropdownSignaler" 
+                                role="button" 
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false">
+                                Signaler
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownSignaler">
+                                    <li><a class="dropdown-item" href="#">Une disparition</a></li>
+                                    <li><a class="dropdown-item" href="#">Un abandon</a></li>
+                                </ul>
+                        </li >
+                        <li class="nav-item mx-auto p-2 dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                                href="#" 
+                                id="navbarDropdownSoutenir" 
+                                role="button" 
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false">
+                                Soutenir
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownSoutenir">
+                                    <li><a class="dropdown-item" href="#">Faire un don</a></li>
+                                    <li><a class="dropdown-item" href="#">Nous rejoindre</a></li>
+                                </ul>
+                        </li >
+                        <li class="nav-item mx-auto p-2">
+                            <a class="nav-link" href="contact.html">Nous contacter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--INTRO-->
+        <section class="m-3 text-center">
+            <h2 class="display-3 text-warning">Adopte-moi !</h2>
+            <div class="container shadow p-2 rounded-2 bg-white my-3">
+                <p class="lead fst-italic">En France, près de 100 000 chiens et chats sont abandonnés chaque année. 
+                    L'abandon laisse <b>une trace indélébile</b> chez l'animal. La plupart s'en remettront avec le temps, 
+                    et un peu de chance en trouvant la famille idéale capable de s'occuper de lui  et de faire "passer ce traumatisme". 
+                </p>
+            </div>
+            <div class="pt-3">
+                <h3>Vous souhaitez adopter un animal et votre décision est mûrement réfléchi ?</h3>
+                <p class="lead">Retrouvez dans la liste les chiens et chats disponibles à l'adoption.</p>
+            </div>
+        </section>
+
+        
+        <section id="card">
+            <div class="container">
+                <!--CARD-DOG-->
+                <h4 class="p-2">Nos chiens :</h4>
+                <div class="row justify-content-evenly">
+                <!--DOG-1-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">BRUTUS</h5>
+                            <img src="src/dog/braque.jpg" class="card-img-center rounded" alt="braque de Weimar">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 18/02/2021</li>
+                                    <li class="list-group-item">Age : 8 mois</li>
+                                    <li class="list-group-item">Race : Braque de Weimar</li>
+                                    <li class="list-group-item">Sexe : Mâle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                <!--DOG-2-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">LIXY</h5>
+                            <img src="src/dog/bichon-maltais.jpg" class="card-img-center rounded" alt="bichon">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 15/05/2021</li>
+                                    <li class="list-group-item">Age : 5 mois</li>
+                                    <li class="list-group-item">Race : Bichon</li>
+                                    <li class="list-group-item">Sexe : Femelle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                <!--DOG-3-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">POKY</h5>
+                            <img src="src/dog/fox-terrier.jpg" class="card-img-center rounded" alt="fox-terrier">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 14/12/2020</li>
+                                    <li class="list-group-item">Age : 6 ans</li>
+                                    <li class="list-group-item">Race : Mixte (Fox-terrier)</li>
+                                    <li class="list-group-item">Sexe : Mâle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                <!--DOG-4-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">MEDOR</h5>
+                            <img src="src/dog/labrador.jpg" class="card-img-center rounded" alt="Labrador">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 04/03/2021</li>
+                                    <li class="list-group-item">Age : 5 ans</li>
+                                    <li class="list-group-item">Race : Labrador</li>
+                                    <li class="list-group-item">Sexe : Mâle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                <!--DOG-5-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">JOE</h5>
+                            <img src="src/dog/mixte.jpg" class="card-img-center rounded" alt="mixte">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 01/06/2021</li>
+                                    <li class="list-group-item">Age : 4 mois</li>
+                                    <li class="list-group-item">Race : Mixte</li>
+                                    <li class="list-group-item">Sexe : Femelle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                <!--DOG-6-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">NAYA</h5>
+                            <img src="src/dog/king-charles.jpg" class="card-img-center rounded" alt="King-Charles">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 17/04/2021</li>
+                                    <li class="list-group-item">Age : 8 mois</li>
+                                    <li class="list-group-item">Race : King-Charles</li>
+                                    <li class="list-group-item">Sexe : Femelle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--SEPARATOR-->
+                <div class="border-top border-3 border-warning m-3"></div>
+            <!--CARD-CAT-->
+                <h4 class="p-2">Nos chats :</h4>
+                <div class="row justify-content-evenly">
+                <!--CAT-1-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">WILLY</h5>
+                            <img src="src/cat/cat1.jpg" class="card-img-center rounded" alt="chat-1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 12/05/2021</li>
+                                    <li class="list-group-item">Age : 2 ans</li>
+                                    <li class="list-group-item">Race : /</li>
+                                    <li class="list-group-item">Sexe : Mâle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                <!--CAT-2-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">MARCEL</h5>
+                            <img src="src/cat/cat2.jpg" class="card-img-center rounded" alt="chat-2">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 30/05/2021</li>
+                                    <li class="list-group-item">Age : 1 an</li>
+                                    <li class="list-group-item">Race : /</li>
+                                    <li class="list-group-item">Sexe : Mâle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                <!--CAT-3-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">ISA</h5>
+                            <img src="src/cat/cat3.jpg" class="card-img-center rounded" alt="chat-3">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 27/04/2021</li>
+                                    <li class="list-group-item">Age : 4 ans</li>
+                                    <li class="list-group-item">Race : /</li>
+                                    <li class="list-group-item">Sexe : Femelle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                <!--CAT-4-->
+                    <div class="col-lg-4">
+                        <div class="card mb-2 myShadow">
+                            <h5 class="card-title text-center text-warning p-2">GIRFIELD</h5>
+                            <img src="src/cat/cat4.jpg" class="card-img-center rounded" alt="chat-4">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date d'arrivée : 16/03/2021</li>
+                                    <li class="list-group-item">Age : 1 an</li>
+                                    <li class="list-group-item">Race : /</li>
+                                    <li class="list-group-item">Sexe : Mâle</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning">Adopter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    <!--FOOTER-->
+        <footer class="text-white-50 bg-dark p-4 text-center">
+            <div class="container">
+                <span class="lead">2021 &copy; Manon Bayer</span>
+            </div>
+        </footer>
+    <!--SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
