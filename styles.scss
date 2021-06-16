@@ -52,6 +52,24 @@ $body-bg: $color1;
     background-attachment: fixed;
 }
 
+#picture-signaler {
+    background-image: url("src/picture-signaler.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#picture-contact {
+    background-image: url("src/picture-contact.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
 
 // MEDIA QUERIES
 @media all and (max-width: 768px) {
