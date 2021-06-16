@@ -5,6 +5,10 @@
   border-radius: 10px;
 }
 
+.theme2 {
+  background-color: rgba(251, 252, 252, 0.7);
+}
+
 .myShadow {
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -29,6 +33,15 @@
   width: 100%;
   height: 100vh;
   background-size: cover;
+}
+
+#picture-don {
+  background-image: url("src/picture-don.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
 }
 
 @media all and (max-width: 768px) {

@@ -55,20 +55,9 @@
                         <li class="nav-item mx-auto p-2">
                             <a class="nav-link" href="#">Signaler</a>
                         </li>
-                        <li class="nav-item mx-auto p-2 dropdown">
-                            <a class="nav-link dropdown-toggle" 
-                                href="#" 
-                                id="navbarDropdownSoutenir" 
-                                role="button" 
-                                data-bs-toggle="dropdown" 
-                                aria-expanded="false">
-                                Soutenir
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownSoutenir">
-                                <li><a class="dropdown-item" href="#">Faire un don</a></li>
-                                <li><a class="dropdown-item" href="#">Nous rejoindre</a></li>
-                            </ul>
-                        </li >
+                        <li class="nav-item mx-auto p-2">
+                            <a class="nav-link" href="don.html">Faire un don</a>
+                        </li>
                         <li class="nav-item mx-auto p-2">
                             <a class="nav-link" href="contact.html">Nous contacter</a>
                         </li>
@@ -94,7 +83,7 @@
         
 
     <!--FORMULAIRE DISPARITION-->
-        <section id="disappearance" class="my-5">
+        <section id="disappearance" class="m-3">
             <div class="container">
                 <h1 class="text-center fst-italic">Signaler une disparition :</h1>
                 <div class="row justify-content-center">
@@ -104,21 +93,21 @@
                                 <fieldset class="text-dark fs-4">Le propriétaire :</fieldset>
                                 <div class="row">
                                     <div class="col-md mb-2">
-                                        <label for="ownerName" class="form-label">Nom :</label>
+                                        <label for="ownerName" class="form-label">Nom * :</label>
                                         <input type="text" class="form-control" id="ownerName" placeholder="Entrez votre Nom" required>
                                     </div>
                                     <div class="col-md mb-2">
-                                        <label for="ownerFirstName" class="form-label">Prénom :</label>
+                                        <label for="ownerFirstName" class="form-label">Prénom * :</label>
                                         <input type="text" class="form-control" id="ownerFirstName" placeholder="Entrez votre prénom" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md mb-2">
-                                            <label for="ownerEmail" class="form-label">Indiquez votre adresse Email :</label>
+                                            <label for="ownerEmail" class="form-label">Indiquez votre adresse Email * :</label>
                                             <input type="text" class="form-control" id="ownerEmail" placeholder="exemple@email" required>
                                     </div>
                                     <div class="col-md mb-2">
-                                            <label for="ownerPhone" class="form-label">Téléphone :</label>
+                                            <label for="ownerPhone" class="form-label">Téléphone * :</label>
                                             <input type="tel" id="ownerPhone" name="phone" class="form-control w-75" maxlength="10" required>
                                     </div>
                                 </div>
@@ -150,7 +139,7 @@
                                         </label>
                                     </div>
                                     <div class="col-md mb-2">
-                                        <label for="age" class="form-label">Son âge</label>
+                                        <label for="age" class="form-label">Son âge :</label>
                                         <input type="text" name="age" id="age" class="form-control w-75">
                                     </div>
                                 </div>
@@ -161,18 +150,18 @@
                                         <input type="number" class="form-control w-25 " id="streetNumber">
                                     </div>
                                     <div class="col-md mb-2">
-                                        <label for="streetAddress" class="form-label">Rue :</label>
-                                        <input type="text" class="form-control " id="streetAddress">
+                                        <label for="streetAddress" class="form-label">Rue * :</label>
+                                        <input type="text" class="form-control " id="streetAddress" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md mb-2">
-                                        <label for="cp" class="form-label">Code Postal</label>
-                                        <input type="number" class="form-control w-50 " id="cp">
+                                        <label for="cp" class="form-label">Code Postal * :</label>
+                                        <input type="number" class="form-control w-50 " id="cp" required>
                                     </div>
                                     <div class="col-md mb-2">
-                                        <label for="city" class="form-label">Ville :</label>
-                                        <input type="text" class="form-control " id="city">
+                                        <label for="city" class="form-label">Ville * :</label>
+                                        <input type="text" class="form-control " id="city" required>
                                     </div>
                                 </div>
                                 <div class="mb-3">
@@ -190,7 +179,7 @@
         </section>
 
 <!--FORMULAIRE ABANDON-->
-        <section id="abandonment" class="m-4">
+        <section id="abandonment" class="m-3">
             <div class="container">
                 <h1 class="text-center fst-italic">Signaler un abandon/maltraitance :</h1>
                 <div class="row justify-content-center">
@@ -200,21 +189,21 @@
                                 <fieldset class="text-dark fs-4">Vous :</fieldset>
                                 <div class="row">
                                     <div class="col-md mb-2">
-                                        <label for="name" class="form-label">Nom :</label>
+                                        <label for="name" class="form-label">Nom * :</label>
                                         <input type="text" class="form-control" id="name" placeholder="Entrez votre Nom" required>
                                     </div>
                                     <div class="col-md mb-2">
-                                        <label for="first-name" class="form-label">Prénom :</label>
+                                        <label for="first-name" class="form-label">Prénom * :</label>
                                         <input type="text" class="form-control" id="first-name" placeholder="Entrez votre prénom" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md mb-2">
-                                            <label for="email" class="form-label">Indiquez votre adresse Email :</label>
+                                            <label for="email" class="form-label">Indiquez votre adresse Email * :</label>
                                             <input type="text" class="form-control" id="email" placeholder="exemple@email" required>
                                     </div>
                                     <div class="col-md mb-2">
-                                            <label for="phone" class="form-label">Téléphone :</label>
+                                            <label for="phone" class="form-label">Téléphone * :</label>
                                             <input type="tel" id="phone" name="phone" class="form-control w-75" maxlength="10" required>
                                     </div>
                                 </div>
@@ -284,18 +273,18 @@
                                         <input type="number" class="form-control w-25 " id="streetNumb">
                                     </div>
                                     <div class="col-md mb-2">
-                                        <label for="streetAdd" class="form-label">Rue :</label>
-                                        <input type="text" class="form-control " id="streetAdd">
+                                        <label for="streetAdd" class="form-label">Rue * :</label>
+                                        <input type="text" class="form-control " id="streetAdd" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md mb-2">
-                                        <label for="postal" class="form-label">Code Postal</label>
-                                        <input type="number" class="form-control w-50 " id="postal">
+                                        <label for="postal" class="form-label">Code Postal * :</label>
+                                        <input type="number" class="form-control w-50 " id="postal" required>
                                     </div>
                                     <div class="col-md mb-2">
-                                        <label for="town" class="form-label">Ville :</label>
-                                        <input type="text" class="form-control " id="town">
+                                        <label for="town" class="form-label">Ville * :</label>
+                                        <input type="text" class="form-control " id="town" required>
                                     </div>
                                 </div>
                                 <div class="mb-3">
