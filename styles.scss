@@ -10,9 +10,6 @@ $body-bg: $color1;
     width: 100%;
     height: 100vh;
     background-size: cover;
-}
-
-%picture-fixed {
     position: relative;
     background-attachment: fixed;
 }
@@ -49,7 +46,8 @@ $body-bg: $color1;
 // PICTURE
 #picture-main {
     background-image: url("src/picture-main.jpg");
-    @extend %picture;   
+    @extend %picture;
+    @extend %picture-fixed;
 }
 
 #picture-don {
@@ -61,26 +59,23 @@ $body-bg: $color1;
 #picture-signaler {
     background-image: url("src/picture-signaler.jpg");
     @extend %picture;
-    @extend %picture-fixed;
 }
 
 #picture-contact {
     background-image: url("src/picture-contact.jpg");
     @extend %picture;
-    @extend %picture-fixed;
 }
 
+#picture-info-site {
+    background-image: url("src/picture-info-site.jpg");
+    @extend %picture;
+}
 
 // MEDIA QUERIES
 @media all and (max-width: 768px) {
     .nav-item { font-size: 1rem }
-    #picture-main { height: 40vh; }
     .carousel-caption > h3 { font-size: 0.8rem;}
     .carousel-caption > button { font-size: 0.8rem;} 
-}
-
-@media all and (max-width: 992px) {
-    #picture-main { height: 50vh }
 }
 
 

@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet">
-        <title>Contact | Agir pour eux</title>
+        <title>Agir pour eux | Association protection animale</title>
     </head>
-    <body id="picture-contact">
+    <body id="picture-info-site">
 
     <!--HEADER-->
         <header class="text-center p-4 bg-light">
@@ -16,7 +16,7 @@
             </a>   
         </header>
 
-        <!--NAV-->
+    <!--NAV-->
         <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-md border border-secondary">
             <div class="container">
                 <!--ICON-->
@@ -66,59 +66,53 @@
             </div>
         </nav>
 
-    <!--FORMULAIRE-->
-        <section id="form" class="my-3">
+
+        <section>
             <div class="container">
-                <h1 class="text-center text-warning">Contactez-nous :</h1>
-                <div class="row justify-content-center">
-                    <div class="col-md-8 bg-light text-warning p-3 mt-3 rounded-2 shadow border border-3 border-warning">
-                        <form>
-                            <div class="form-group">
-                                <div class="row mb-3">
-                                    <div class="col-md">
-                                        <label for="name" class="form-label">Nom :</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Entrez votre Nom" required>
-                                    </div>
-                                    <div class="col-md">
-                                        <label for="first-name" class="form-label">Prénom :</label>
-                                        <input type="text" class="form-control" id="first-name" placeholder="Entrez votre prénom" required>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email">Indiquez votre adresse Email :</label>
-                                    <input type="text" id="email" class="form-control w-75" placeholder="exemple@email" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label>Sélectionnez un sujet :</label>
-                                    <select class="form-select w-75">
-                                        <option selected>Adopter</option>
-                                        <option value="1">Signaler un abandon</option>
-                                        <option value="2">Animal perdu</option>
-                                        <option value="3">Bénévolat</option>
-                                        <option value="4">Informations sur l'association</option>
-                                        <option value="5">Autre</option>
-                                    </select>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="commentaire" class="form-label">Votre commentaire :</label>
-                                    <textarea class="form-control" id="commentaire" rows="6" placeholder="Votre commentaire ici" required></textarea>
-                                </div>
-                                <div class="text-end">
-                                <button class="btn btn-outline-warning" type="submit">Envoyer</button>
-                                </div>
-                            </div>
-                        </form>
+                <div class="theme2 p-2 rounded-2 my-3">
+                    <h1 class="text-center text-uppercase text-warning bg-light p-2">Site web fictif</h1>
+                    <p class="lead p-3">Etudiante à l'Ecole <b>STUDI - Développeuse Web Front-end</b> (promo CLARKE), j'ai créé ce site dans le cadre d'une évaluation,
+                        démontrant les différentes compétences techniques acquises. <br>
+                        Notamment :
+                        <ul class="fw-bold">
+                            <li><img src="src/icons/html.png"/>Le langage <u>HTML</u> (langage de description).</li>
+                            <li><img src="src/icons/css.png"/>Le langage <u>CSS</u> (langage de style).</li>
+                            <li><img src="src/icons/bootstrap.png"/> Le framework <u>BOOTSTRAP</u>.</li>
+                            <li><img src="src/icons/sass.png"/> Le préprocesseur <u>SASS</u>.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="theme2 p-2 rounded-2 my-3">
+                    <p class="text-center text-uppercase bg-light p-2 fs-4">Pour toute information me concernant :</p>
+                    <div class="row justify-content-evenly text-center">
+                        <div class="col">
+                            <p>Mon profil Github </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                              </svg>
+                            <p><a href="https://github.com/ManonDev" target="_blank"><img src="src/icons/github.png" alt="icon-github"></a></p>
+                            
+                        </div>
+                        <div class="col">
+                            <p>Mon adresse mail</p> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                              </svg>
+                            <p><a href="mailto:manonbayer.pro@gmail.com" target="_blank"><img src="src/icons/gmail.png" alt="icon-mail"></a></p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
-    <!--FOOTER-->
+        <!--FOOTER-->
         <footer class="text-white-50 bg-dark p-4 text-center">
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-auto">
-                        <span class="lead d-block">Association protection n animale | Agir pour eux</span>
+                        <span class="lead d-block">Association protection  animale | Agir pour eux</span>
                         <span class="lead text-muted">2021 &copy; Manon Bayer</span>
                     </div>
                     <div class="col col-md-4 align-self-center">
