@@ -47,13 +47,11 @@ $body-bg: $color1;
 #picture-main {
     background-image: url("src/background/picture-main.jpg");
     @extend %picture;
-    @extend %picture-fixed;
 }
 
 #picture-don {
     background-image: url("src/background/picture-don.jpg");
     @extend %picture;
-    @extend %picture-fixed;
 }
 
 #picture-signaler {

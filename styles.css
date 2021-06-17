@@ -2,9 +2,6 @@
   width: 100%;
   height: 100vh;
   background-size: cover;
-}
-
-#picture-main, #picture-don, #picture-signaler, #picture-contact, #picture-info-site {
   position: relative;
   background-attachment: fixed;
 }
@@ -35,23 +32,23 @@
 }
 
 #picture-main {
-  background-image: url("src/picture-main.jpg");
+  background-image: url("src/background/picture-main.jpg");
 }
 
 #picture-don {
-  background-image: url("src/picture-don.jpg");
+  background-image: url("src/background/picture-don.jpg");
 }
 
 #picture-signaler {
-  background-image: url("src/picture-signaler.jpg");
+  background-image: url("src/background/picture-signaler.jpg");
 }
 
 #picture-contact {
-  background-image: url("src/picture-contact.jpg");
+  background-image: url("src/background/picture-contact.jpg");
 }
 
 #picture-info-site {
-  background-image: url("src/picture-info-site.jpg");
+  background-image: url("src/background/picture-info-site.jpg");
 }
 
 @media all and (max-width: 768px) {
