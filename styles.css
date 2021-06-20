@@ -1,4 +1,4 @@
-#picture-main, #picture-don, #picture-signaler, #picture-contact, #picture-info-site {
+#picture-main, #picture-decouvrir, #picture-don, #picture-signaler, #picture-contact, #picture-info-site {
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -33,6 +33,10 @@
 
 #picture-main {
   background-image: url("src/background/picture-main.jpg");
+}
+
+#picture-decouvrir {
+  background-image: url("src/background/picture-decouvrir.jpg");
 }
 
 #picture-don {

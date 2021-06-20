@@ -36,7 +36,6 @@ $body-bg: $color1;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-
 // NAV
 .nav-item {
     font-size: 1.3rem;
@@ -46,6 +45,11 @@ $body-bg: $color1;
 // PICTURE
 #picture-main {
     background-image: url("src/background/picture-main.jpg");
+    @extend %picture;
+}
+
+#picture-decouvrir {
+    background-image: url("src/background/picture-decouvrir.jpg");
     @extend %picture;
 }
 
