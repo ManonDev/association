@@ -20,11 +20,13 @@
 .myShadow {
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .myShadow:hover {
-  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  -webkit-box-shadow: rgba(255, 193, 7, 0.4) 0px 0px 0px 2px, rgba(255, 193, 7, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+          box-shadow: rgba(255, 193, 7, 0.4) 0px 0px 0px 2px, rgba(255, 193, 7, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .nav-item {
